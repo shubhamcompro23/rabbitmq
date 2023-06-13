@@ -48,4 +48,4 @@ rabbit.publish('ex.1.2', { type: 'MyMessage', routingKey: "key",body: {x:2, y:5}
 
 setTimeout(() => {
   rabbit.shutdown(true)
-},60000);
+},600000);
